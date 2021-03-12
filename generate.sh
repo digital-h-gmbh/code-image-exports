@@ -14,7 +14,7 @@ fi
 
 THEMEFILE="$(bat --config-dir)/themes/digitalh.tmTheme"
 
-if ! [ -f "$FILE" ]; then
+if ! [ -f "$THEMEFILE" ]; then
   cp ./digitalh.tmTheme "$(bat --config-dir)/themes/digitalh.tmTheme"
 fi
 
