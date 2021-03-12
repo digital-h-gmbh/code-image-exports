@@ -1,4 +1,4 @@
-# Custom Code Exports for Digital H
+# Custom Code Exports
 
 This project allows for generating images of code with Digital H branded syntax highlighting. It builds upon `bat` and `silicon`.
 
