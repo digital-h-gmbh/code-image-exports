@@ -18,4 +18,4 @@ if ! [ -f "$THEMEFILE" ]; then
   cp ./digitalh.tmTheme "$(bat --config-dir)/themes/digitalh.tmTheme"
 fi
 
-silicon $INPUT -o $OUTPUT --background "#ffffffff" --no-window-controls --theme "/home/dennis/.config/bat/themes/digitalh.tmTheme"
+silicon $INPUT -o $OUTPUT --background "#ffffffff" --no-window-controls --theme "$(bat --config-dir)/themes/digitalh.tmTheme"
