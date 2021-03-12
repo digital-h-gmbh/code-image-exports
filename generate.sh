@@ -1,5 +1,6 @@
 #!/bin/bash
 INPUT=$1
+OUTPUT=$2
 
 if ! [ -x "$(command -v silicon)" ]; then
   echo 'Error: silicon is not installed.' >&2
@@ -17,4 +18,4 @@ if ! [ -f "$FILE" ]; then
   cp ./digitalh.tmTheme "$(bat --config-dir)/themes/digitalh.tmTheme"
 fi
 
-silicon $INPUT -o ./generated.png --background "#ffffffff" --no-window-controls --theme "/home/dennis/.config/bat/themes/digitalh.tmTheme"
+silicon $INPUT -o $OUTPUT --background "#ffffffff" --no-window-controls --theme "/home/dennis/.config/bat/themes/digitalh.tmTheme"
