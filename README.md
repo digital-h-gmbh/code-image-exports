@@ -20,8 +20,11 @@ chmod +x generate.sh
 
 ```
 ./generate.sh /path/to/codefile /output/path
+```
 
-# You can test the script with the following command
+You can test the script with the following command:
+
+```
 ./generate.sh ./test/test.tsx ./test/output.png
 ```
 
